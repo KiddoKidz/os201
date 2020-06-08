@@ -1,0 +1,23 @@
+Script started on 2020-06-08 10:09:37+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="85" LINES="19"]
+# PS1="$ "
+$ echo $GitHubUser
+KiddoKidz
+$ echo $PSTAMP
+TMP1="200608-100924"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ echo $      PS1="$(eval $PSTAMP)"
+200608-100924-00d9-UAS/> ls -F
+0000-mypub.txt*  0001-mytest.txt*  0002-mytest.txt.asc*  0003-CEK-PAS0.txt
+200608-100924-00d9-UAS/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002. -mytest.txt.asc >SHA1SUM
+200608-100924-00d9-UAS/> sha1sum -c SHA1SUM
+0000-mypub.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+200608-100924-00d9-UAS/> gpg2 -sb -  a SAH  HA1SUM
+[?1049h[22;0;0t[1;19r(B[m[4l[?7h[?1h=[39;49m[39;49m[H[2J                                                                                     [2;1H                                                                                     [3;1H                                                                                     [4;1H                                                                                     [5;1H                                                                                     [6;1H                                                                                     [7;1H                                                                                     [8;1H                                                                                     [9;1H                                                                                     [10;1H                                                                                     [11;1H                                                                                     [12;1H                                                                                     [13;1H                                                                                     [14;1H                                                                                     [15;1H                                                                                     [16;1H                                                                                     [17;1H                                                                                     [18;1H                                                                                     [19;1H                                                                                    [?7l [?7h[H(B[m[5;7H(0[0mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk(B(B[m[6;7H(0[0mx(B[0m Please enter the passphrase to unlock the OpenPGP secret key:[79G(0[0mx(B(B[m[7;7H(0[0mx(B[0m "Muhammad Zuhdi Zamrud (Hello! I'm Zuhdi) <mzuhdi.zamrud@gmail.com>"  (0[0mx(B(B[m[8;7H(0[0mx(B[0m 4096-bit RSA key, ID F0A433A8E3599CD8,[79G(0[0mx(B(B[m[9;7H(0[0mx(B[0m created 2020-02-23.[79G(0[0mx(B(B[m[10;7H(0[0mx(B[0m [79G(0[0mx(B(B[m[11;7H(0[0mx(B(B[m[79G(0[0mx(B(B[m[12;7H(0[0mx(B[0m Passphrase: _________________________________________________________ (0[0mx(B(B[m[13;7H(0[0mx(B(B[m[79G(0[0mx(B(B[m[14;7H(0[0mx(B(B[m[14;18H(0[0m(B[0m<OK>[14;63H<Cancel>[79G(0[0mx(B(B[m[15;7H(0[0mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj(B(B[m[12;21H(0[0m(B(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m[19;1H[?1049l[23;0;0t[?1l>200608-100924-00d9-UAS/> gpg2 --verig fy SHA1SUM.asc
+gpg: assuming signed data in 'SHA1SUM'
+gpg: Signature made Mon Jun  8 10:11:28 2020 UTC
+gpg:                using RSA key 9F02F8096A49D90963374A90F0A433A8E3599CD8
+gpg: Good signature from "Muhammad Zuhdi Zamrud (Hello! I'm Zuhdi) <mzuhdi.zamrud@gmail.com>" [ultimate]
+200608-100924-00d9-UAS/> exit
+
+Script done on 2020-06-08 10:11:50+00:00 [COMMAND_EXIT_CODE="0"]
