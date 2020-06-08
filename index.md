@@ -16,3 +16,5 @@ Website ini terletak di di github pages repository os201
 
 ### Bagaimana website ini bekerja?
 Website ini di-*served* oleh GithubPages
+
+Go to [URLs](/URLs/) 
