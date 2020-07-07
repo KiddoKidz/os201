@@ -1,0 +1,32 @@
+Script started on Tue 07 Jul 2020 03:20:43 AM WIB
+]0;muhammad.zuhdi81@badak: ~muhammad.zuhdi81@badak:~$ PS1="$ "
+$ echo $akunGitHub 
+KiddoKidz
+$ echo $PSTAMP 
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(sleep 1;echo $TMP1-$akunGitHub-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ date
+Tue Jul  7 03:21:21 WIB 2020
+$ PS1 =[K[K="\$(eval \$PSTAMP)"
+200707-032140-9489-muhammad.zuhdi81/> echo -e $CEKSAYA
+KiddoKidz ZCZCSCRIPTSTART 200706-152503 KiddoKidz 
+KiddoKidz KiddoKidz 200706-152553-f423-muhammad.zuhdi81/ 200706-152553 SEQOK SUMOK f4239342 
+KiddoKidz KiddoKidz 200706-152601-3899-muhammad.zuhdi81/ 200706-152601 SEQOK SUMOK 3899e9df
+KiddoKidz ZCZCSCRIPTSTOP 200706-152603 SEQOK SUMOK
+200707-032148-a560-muhammad.zuhdi81/> eh[Kcho -e $CEKSEBELA1
+KiddoKidz ZCZCSCRIPTSTART 200607-212401 kolokopo 
+KiddoKidz kolokopo 200607-212436-7a05-muhammad.afiful/ 200607-212436 SEQOK SUMOK 7a05b90b 
+KiddoKidz kolokopo 200607-212445-1183-muhammad.afiful/ 200607-212445 SEQOK SUMOK 1183e61a 
+KiddoKidz kolokopo 200607-212504-0f62-muhammad.afiful/ 200607-212504 SEQOK SUMOK 0f623cd9 
+KiddoKidz kolokopo 200607-212515-1611-muhammad.afiful/ 200607-212515 SEQOK SUMOK 16116c36
+KiddoKidz ZCZCSCRIPTSTOP 200607-212520 SEQOK SUMOK
+200707-032157-731a-muhammad.zuhdi81/> echo -e $CEKSEBAL[K[KLA[K[KELA2
+KiddoKidz ZCZCSCRIPTSTART 200605-215636 krisnadwitama 
+KiddoKidz krisnadwitama 200605-215702-72cc-UAS/ 200605-215702 SEQOK SUMOK 72cc146d 
+KiddoKidz krisnadwitama 200605-215708-6489-UAS/ 200605-215708 SEQOK SUMOK 64899420 
+KiddoKidz krisnadwitama 200605-215709-9dbb-UAS/ 200605-215709 SEQOK SUMOK 9dbb0adc 
+KiddoKidz krisnadwitama 200605-215715-6ce8-UAS/ 200605-215715 SEQOK SUMOK 6ce8b3a3
+KiddoKidz ZCZCSCRIPTSTOP 200605-215814 SEQOK SUMOK
+200707-032210-6584-muhammad.zuhdi81/> exit
+exit
+
+Script done on Tue 07 Jul 2020 03:22:16 AM WIB
